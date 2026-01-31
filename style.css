@@ -1,11 +1,29 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: white;
+  padding: 40px;
+}
+
+
 .navbar ul {
-    margin: 0;
-    padding: 0;
-    
+  list-style: none;
+  padding: 20px;
 }
-.active {
-    color: black;  
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
 }
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a.active {
+  font-weight: bold;
+}
+
 
 span{
     color: #DC4D01;
@@ -14,32 +32,85 @@ span{
 
 }
 
-
-
 h1 {
-    color: orangered;
-    font-weight: bold;
-    font-size: 60px;
-    font-family: Arial;
-}
-body {
-    font-family: helvetica;
-    
+  font-size: 60px;
+  color: orangered;
 }
 
-div .button1,.button2{
-    background-color: orangered;
-    width: 120px;
-    padding: 5px;
-    border-radius: 10px;
-    
-}
-.button1,.button2 {
-    color: white;
+h2 {
+  margin-top: 60px;
 }
 
-.cards {
-    width: 300px;
+
+
+.button {
+  display: inline-block;
+  background-color: orangered;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 20px;
 }
 
+
+.project {
+  margin-bottom: 50px;
+}
+
+.project img {
+  width: 500px;
+  display: block;
+}
+
+.project p {
+  max-width: 500px;
+}
+
+
+footer {
+  text-align: right;
+  margin: 40px;
+  color: #DC4D01;
+}
+
+/*The about Section starts here*/
+
+
+.resume a {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.contact a {
+  display: inline-block;
+  background-color: orangered;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.picture {
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+}
+
+.greeting {
+  margin-top: 60px;
+  margin-left: auto;
+}
+/*The about Section ends here*/
+
+
+/*The project Section starts here*/
+
+/*The project Section ends here*/
 
